@@ -52,6 +52,10 @@ color:white;
 <div class="card">💨 Pogoda – sprawdzaj wiatr</div>
 
 <button onclick="alert('Tu później dodamy licznik wydatków 😉')">Dodaj wydatek</button>
-
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
 </body>
 </html>
